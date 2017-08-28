@@ -10,16 +10,18 @@
 		8B5D3B321F53B9E700DDD54E /* icon_xuanzhongbx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D3B311F53B9D900DDD54E /* icon_xuanzhongbx.png */; };
 		8B5D3B331F53B9E700DDD54E /* icon_xuanzhongx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D3B301F53B9D900DDD54E /* icon_xuanzhongx.png */; };
 		8B5D3B3A1F540D4000DDD54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B381F540D2C00DDD54E /* AppDelegate.m */; };
+		8B5D3B501F5413D500DDD54E /* JABAddBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B431F5413C300DDD54E /* JABAddBankViewController.m */; };
+		8B5D3B511F5413D500DDD54E /* JABAddBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B461F5413C300DDD54E /* JABAddBankModel.m */; };
+		8B5D3B521F5413D500DDD54E /* JABAddBankSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B491F5413C300DDD54E /* JABAddBankSelectedView.m */; };
+		8B5D3B531F5413D500DDD54E /* JABAddBankTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B4B1F5413C300DDD54E /* JABAddBankTableCell.m */; };
+		8B5D3B561F54149D00DDD54E /* JABDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B551F54149D00DDD54E /* JABDataViewController.m */; };
+		8B5D3B5F1F5414EA00DDD54E /* JABFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B5E1F5414EA00DDD54E /* JABFirstViewController.m */; };
 		8B76FDF41F52BBC400D6BE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF21F52BBC400D6BE6C /* Main.storyboard */; };
 		8B76FDF61F52BBC400D6BE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */; };
 		8B76FDF91F52BBC400D6BE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF71F52BBC400D6BE6C /* LaunchScreen.storyboard */; };
 		8B76FDFC1F52BBC400D6BE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FDFB1F52BBC400D6BE6C /* main.m */; };
 		8B76FE061F52BBC400D6BE6C /* JglhAddBankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE051F52BBC400D6BE6C /* JglhAddBankTests.m */; };
 		8B76FE111F52BBC400D6BE6C /* JglhAddBankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE101F52BBC400D6BE6C /* JglhAddBankUITests.m */; };
-		8B76FE231F52BE6300D6BE6C /* JABAddBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */; };
-		8B76FE381F52C09B00D6BE6C /* JABAddBankSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */; };
-		8B76FE391F52C09B00D6BE6C /* JABAddBankTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */; };
-		8B76FE491F52C8B800D6BE6C /* JABAddBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,18 @@
 		8B5D3B371F540D2C00DDD54E /* FAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAHeader.h; sourceTree = "<group>"; };
 		8B5D3B381F540D2C00DDD54E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B5D3B391F540D2C00DDD54E /* JglhAddBankPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JglhAddBankPrefix.pch; sourceTree = "<group>"; };
+		8B5D3B421F5413C300DDD54E /* JABAddBankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankViewController.h; sourceTree = "<group>"; };
+		8B5D3B431F5413C300DDD54E /* JABAddBankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankViewController.m; sourceTree = "<group>"; };
+		8B5D3B451F5413C300DDD54E /* JABAddBankModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankModel.h; sourceTree = "<group>"; };
+		8B5D3B461F5413C300DDD54E /* JABAddBankModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankModel.m; sourceTree = "<group>"; };
+		8B5D3B481F5413C300DDD54E /* JABAddBankSelectedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankSelectedView.h; sourceTree = "<group>"; };
+		8B5D3B491F5413C300DDD54E /* JABAddBankSelectedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankSelectedView.m; sourceTree = "<group>"; };
+		8B5D3B4A1F5413C300DDD54E /* JABAddBankTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankTableCell.h; sourceTree = "<group>"; };
+		8B5D3B4B1F5413C300DDD54E /* JABAddBankTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankTableCell.m; sourceTree = "<group>"; };
+		8B5D3B541F54149D00DDD54E /* JABDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABDataViewController.h; sourceTree = "<group>"; };
+		8B5D3B551F54149D00DDD54E /* JABDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABDataViewController.m; sourceTree = "<group>"; };
+		8B5D3B5D1F5414EA00DDD54E /* JABFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABFirstViewController.h; sourceTree = "<group>"; };
+		8B5D3B5E1F5414EA00DDD54E /* JABFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABFirstViewController.m; sourceTree = "<group>"; };
 		8B76FDE91F52BBC400D6BE6C /* JglhAddBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JglhAddBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B76FDF31F52BBC400D6BE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,14 +72,6 @@
 		8B76FE0C1F52BBC400D6BE6C /* JglhAddBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JglhAddBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B76FE101F52BBC400D6BE6C /* JglhAddBankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JglhAddBankUITests.m; sourceTree = "<group>"; };
 		8B76FE121F52BBC400D6BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B76FE211F52BE6300D6BE6C /* JABAddBankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankViewController.h; sourceTree = "<group>"; };
-		8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankViewController.m; sourceTree = "<group>"; };
-		8B76FE331F52C08100D6BE6C /* JABAddBankSelectedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankSelectedView.h; sourceTree = "<group>"; };
-		8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankSelectedView.m; sourceTree = "<group>"; };
-		8B76FE351F52C08100D6BE6C /* JABAddBankTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankTableCell.h; sourceTree = "<group>"; };
-		8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankTableCell.m; sourceTree = "<group>"; };
-		8B76FE471F52C8B800D6BE6C /* JABAddBankModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankModel.h; sourceTree = "<group>"; };
-		8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,35 +110,119 @@
 			path = General;
 			sourceTree = "<group>";
 		};
-		8B5D3B3B1F540D9F00DDD54E /* DataStatistics */ = {
+		8B5D3B3F1F54122A00DDD54E /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				8B5D3B3E1F540F8900DDD54E /* Controllers */,
-				8B5D3B3C1F540F8900DDD54E /* Models */,
-				8B5D3B3D1F540F8900DDD54E /* Views */,
+				8B5D3B571F5414A900DDD54E /* Base */,
+				8B5D3B401F5413C300DDD54E /* AddBank */,
+				8B5D3B4C1F5413C300DDD54E /* DataStatistics */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		8B5D3B401F5413C300DDD54E /* AddBank */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B411F5413C300DDD54E /* Controllers */,
+				8B5D3B441F5413C300DDD54E /* Models */,
+				8B5D3B471F5413C300DDD54E /* Views */,
+			);
+			path = AddBank;
+			sourceTree = "<group>";
+		};
+		8B5D3B411F5413C300DDD54E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B421F5413C300DDD54E /* JABAddBankViewController.h */,
+				8B5D3B431F5413C300DDD54E /* JABAddBankViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B5D3B441F5413C300DDD54E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B451F5413C300DDD54E /* JABAddBankModel.h */,
+				8B5D3B461F5413C300DDD54E /* JABAddBankModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B5D3B471F5413C300DDD54E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B481F5413C300DDD54E /* JABAddBankSelectedView.h */,
+				8B5D3B491F5413C300DDD54E /* JABAddBankSelectedView.m */,
+				8B5D3B4A1F5413C300DDD54E /* JABAddBankTableCell.h */,
+				8B5D3B4B1F5413C300DDD54E /* JABAddBankTableCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B5D3B4C1F5413C300DDD54E /* DataStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B4D1F5413C300DDD54E /* Controllers */,
+				8B5D3B4E1F5413C300DDD54E /* Models */,
+				8B5D3B4F1F5413C300DDD54E /* Views */,
 			);
 			path = DataStatistics;
 			sourceTree = "<group>";
 		};
-		8B5D3B3C1F540F8900DDD54E /* Models */ = {
+		8B5D3B4D1F5413C300DDD54E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B541F54149D00DDD54E /* JABDataViewController.h */,
+				8B5D3B551F54149D00DDD54E /* JABDataViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B5D3B4E1F5413C300DDD54E /* Models */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		8B5D3B3D1F540F8900DDD54E /* Views */ = {
+		8B5D3B4F1F5413C300DDD54E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		8B5D3B3E1F540F8900DDD54E /* Controllers */ = {
+		8B5D3B571F5414A900DDD54E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B581F5414C200DDD54E /* Controllers */,
+				8B5D3B5C1F5414C200DDD54E /* Models */,
+				8B5D3B5B1F5414C200DDD54E /* Views */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8B5D3B581F5414C200DDD54E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B5D1F5414EA00DDD54E /* JABFirstViewController.h */,
+				8B5D3B5E1F5414EA00DDD54E /* JABFirstViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B5D3B5B1F5414C200DDD54E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controllers;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B5D3B5C1F5414C200DDD54E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		8B76FDE01F52BBC400D6BE6C = {
@@ -158,10 +248,9 @@
 		8B76FDEB1F52BBC400D6BE6C /* JglhAddBank */ = {
 			isa = PBXGroup;
 			children = (
-				8B5D3B3B1F540D9F00DDD54E /* DataStatistics */,
+				8B5D3B3F1F54122A00DDD54E /* Class */,
 				8B5D3B351F540CD000DDD54E /* General */,
 				8B76FE3E1F52C6AF00D6BE6C /* Resource */,
-				8B76FE1E1F52BD8E00D6BE6C /* AddBank */,
 				8B76FDF21F52BBC400D6BE6C /* Main.storyboard */,
 				8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */,
 				8B76FDF71F52BBC400D6BE6C /* LaunchScreen.storyboard */,
@@ -187,45 +276,6 @@
 				8B76FE121F52BBC400D6BE6C /* Info.plist */,
 			);
 			path = JglhAddBankUITests;
-			sourceTree = "<group>";
-		};
-		8B76FE1E1F52BD8E00D6BE6C /* AddBank */ = {
-			isa = PBXGroup;
-			children = (
-				8B76FE2F1F52C08100D6BE6C /* Models */,
-				8B76FE321F52C08100D6BE6C /* Views */,
-				8B76FE1F1F52BE1A00D6BE6C /* Controllers */,
-			);
-			path = AddBank;
-			sourceTree = "<group>";
-		};
-		8B76FE1F1F52BE1A00D6BE6C /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8B76FE211F52BE6300D6BE6C /* JABAddBankViewController.h */,
-				8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		8B76FE2F1F52C08100D6BE6C /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				8B76FE471F52C8B800D6BE6C /* JABAddBankModel.h */,
-				8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		8B76FE321F52C08100D6BE6C /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				8B76FE331F52C08100D6BE6C /* JABAddBankSelectedView.h */,
-				8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */,
-				8B76FE351F52C08100D6BE6C /* JABAddBankTableCell.h */,
-				8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		8B76FE3E1F52C6AF00D6BE6C /* Resource */ = {
@@ -370,12 +420,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B5D3B561F54149D00DDD54E /* JABDataViewController.m in Sources */,
+				8B5D3B501F5413D500DDD54E /* JABAddBankViewController.m in Sources */,
+				8B5D3B511F5413D500DDD54E /* JABAddBankModel.m in Sources */,
+				8B5D3B521F5413D500DDD54E /* JABAddBankSelectedView.m in Sources */,
+				8B5D3B531F5413D500DDD54E /* JABAddBankTableCell.m in Sources */,
 				8B5D3B3A1F540D4000DDD54E /* AppDelegate.m in Sources */,
-				8B76FE381F52C09B00D6BE6C /* JABAddBankSelectedView.m in Sources */,
-				8B76FE391F52C09B00D6BE6C /* JABAddBankTableCell.m in Sources */,
-				8B76FE491F52C8B800D6BE6C /* JABAddBankModel.m in Sources */,
 				8B76FDFC1F52BBC400D6BE6C /* main.m in Sources */,
-				8B76FE231F52BE6300D6BE6C /* JABAddBankViewController.m in Sources */,
+				8B5D3B5F1F5414EA00DDD54E /* JABFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

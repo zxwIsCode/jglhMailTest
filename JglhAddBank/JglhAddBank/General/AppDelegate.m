@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "JABAddBankViewController.h"
+#import "JABFirstViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     
     self.window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    JABAddBankViewController *vc =[[JABAddBankViewController alloc]init];
+    JABFirstViewController *vc =[[JABFirstViewController alloc]init];
     self.window.rootViewController =[[UINavigationController alloc]initWithRootViewController:vc];
     [self.window makeKeyAndVisible];
     

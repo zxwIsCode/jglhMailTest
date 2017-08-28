@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B5D3B321F53B9E700DDD54E /* icon_xuanzhongbx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D3B311F53B9D900DDD54E /* icon_xuanzhongbx.png */; };
+		8B5D3B331F53B9E700DDD54E /* icon_xuanzhongx.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B5D3B301F53B9D900DDD54E /* icon_xuanzhongx.png */; };
+		8B5D3B3A1F540D4000DDD54E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B5D3B381F540D2C00DDD54E /* AppDelegate.m */; };
+		8B76FDF41F52BBC400D6BE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF21F52BBC400D6BE6C /* Main.storyboard */; };
+		8B76FDF61F52BBC400D6BE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */; };
+		8B76FDF91F52BBC400D6BE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B76FDF71F52BBC400D6BE6C /* LaunchScreen.storyboard */; };
+		8B76FDFC1F52BBC400D6BE6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FDFB1F52BBC400D6BE6C /* main.m */; };
+		8B76FE061F52BBC400D6BE6C /* JglhAddBankTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE051F52BBC400D6BE6C /* JglhAddBankTests.m */; };
+		8B76FE111F52BBC400D6BE6C /* JglhAddBankUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE101F52BBC400D6BE6C /* JglhAddBankUITests.m */; };
+		8B76FE231F52BE6300D6BE6C /* JABAddBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */; };
+		8B76FE381F52C09B00D6BE6C /* JABAddBankSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */; };
+		8B76FE391F52C09B00D6BE6C /* JABAddBankTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */; };
+		8B76FE491F52C8B800D6BE6C /* JABAddBankModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B76FE021F52BBC400D6BE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B76FDE11F52BBC400D6BE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B76FDE81F52BBC400D6BE6C;
+			remoteInfo = JglhAddBank;
+		};
+		8B76FE0D1F52BBC400D6BE6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B76FDE11F52BBC400D6BE6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B76FDE81F52BBC400D6BE6C;
+			remoteInfo = JglhAddBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B5D3B301F53B9D900DDD54E /* icon_xuanzhongx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xuanzhongx.png; sourceTree = "<group>"; };
+		8B5D3B311F53B9D900DDD54E /* icon_xuanzhongbx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_xuanzhongbx.png; sourceTree = "<group>"; };
+		8B5D3B361F540D2C00DDD54E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B5D3B371F540D2C00DDD54E /* FAHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FAHeader.h; sourceTree = "<group>"; };
+		8B5D3B381F540D2C00DDD54E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B5D3B391F540D2C00DDD54E /* JglhAddBankPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JglhAddBankPrefix.pch; sourceTree = "<group>"; };
+		8B76FDE91F52BBC400D6BE6C /* JglhAddBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JglhAddBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76FDF31F52BBC400D6BE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B76FDF81F52BBC400D6BE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B76FDFA1F52BBC400D6BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B76FDFB1F52BBC400D6BE6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B76FE011F52BBC400D6BE6C /* JglhAddBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JglhAddBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76FE051F52BBC400D6BE6C /* JglhAddBankTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JglhAddBankTests.m; sourceTree = "<group>"; };
+		8B76FE071F52BBC400D6BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B76FE0C1F52BBC400D6BE6C /* JglhAddBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JglhAddBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B76FE101F52BBC400D6BE6C /* JglhAddBankUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JglhAddBankUITests.m; sourceTree = "<group>"; };
+		8B76FE121F52BBC400D6BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B76FE211F52BE6300D6BE6C /* JABAddBankViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankViewController.h; sourceTree = "<group>"; };
+		8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankViewController.m; sourceTree = "<group>"; };
+		8B76FE331F52C08100D6BE6C /* JABAddBankSelectedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankSelectedView.h; sourceTree = "<group>"; };
+		8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankSelectedView.m; sourceTree = "<group>"; };
+		8B76FE351F52C08100D6BE6C /* JABAddBankTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankTableCell.h; sourceTree = "<group>"; };
+		8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankTableCell.m; sourceTree = "<group>"; };
+		8B76FE471F52C8B800D6BE6C /* JABAddBankModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAddBankModel.h; sourceTree = "<group>"; };
+		8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAddBankModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B76FDE61F52BBC400D6BE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FDFE1F52BBC400D6BE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FE091F52BBC400D6BE6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B5D3B351F540CD000DDD54E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B361F540D2C00DDD54E /* AppDelegate.h */,
+				8B5D3B381F540D2C00DDD54E /* AppDelegate.m */,
+				8B5D3B371F540D2C00DDD54E /* FAHeader.h */,
+				8B5D3B391F540D2C00DDD54E /* JglhAddBankPrefix.pch */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8B5D3B3B1F540D9F00DDD54E /* DataStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B3E1F540F8900DDD54E /* Controllers */,
+				8B5D3B3C1F540F8900DDD54E /* Models */,
+				8B5D3B3D1F540F8900DDD54E /* Views */,
+			);
+			path = DataStatistics;
+			sourceTree = "<group>";
+		};
+		8B5D3B3C1F540F8900DDD54E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B5D3B3D1F540F8900DDD54E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B5D3B3E1F540F8900DDD54E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B76FDE01F52BBC400D6BE6C = {
+			isa = PBXGroup;
+			children = (
+				8B76FDEB1F52BBC400D6BE6C /* JglhAddBank */,
+				8B76FE041F52BBC400D6BE6C /* JglhAddBankTests */,
+				8B76FE0F1F52BBC400D6BE6C /* JglhAddBankUITests */,
+				8B76FDEA1F52BBC400D6BE6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B76FDEA1F52BBC400D6BE6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FDE91F52BBC400D6BE6C /* JglhAddBank.app */,
+				8B76FE011F52BBC400D6BE6C /* JglhAddBankTests.xctest */,
+				8B76FE0C1F52BBC400D6BE6C /* JglhAddBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B76FDEB1F52BBC400D6BE6C /* JglhAddBank */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B3B1F540D9F00DDD54E /* DataStatistics */,
+				8B5D3B351F540CD000DDD54E /* General */,
+				8B76FE3E1F52C6AF00D6BE6C /* Resource */,
+				8B76FE1E1F52BD8E00D6BE6C /* AddBank */,
+				8B76FDF21F52BBC400D6BE6C /* Main.storyboard */,
+				8B76FDF51F52BBC400D6BE6C /* Assets.xcassets */,
+				8B76FDF71F52BBC400D6BE6C /* LaunchScreen.storyboard */,
+				8B76FDFA1F52BBC400D6BE6C /* Info.plist */,
+				8B76FDFB1F52BBC400D6BE6C /* main.m */,
+			);
+			path = JglhAddBank;
+			sourceTree = "<group>";
+		};
+		8B76FE041F52BBC400D6BE6C /* JglhAddBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE051F52BBC400D6BE6C /* JglhAddBankTests.m */,
+				8B76FE071F52BBC400D6BE6C /* Info.plist */,
+			);
+			path = JglhAddBankTests;
+			sourceTree = "<group>";
+		};
+		8B76FE0F1F52BBC400D6BE6C /* JglhAddBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE101F52BBC400D6BE6C /* JglhAddBankUITests.m */,
+				8B76FE121F52BBC400D6BE6C /* Info.plist */,
+			);
+			path = JglhAddBankUITests;
+			sourceTree = "<group>";
+		};
+		8B76FE1E1F52BD8E00D6BE6C /* AddBank */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE2F1F52C08100D6BE6C /* Models */,
+				8B76FE321F52C08100D6BE6C /* Views */,
+				8B76FE1F1F52BE1A00D6BE6C /* Controllers */,
+			);
+			path = AddBank;
+			sourceTree = "<group>";
+		};
+		8B76FE1F1F52BE1A00D6BE6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE211F52BE6300D6BE6C /* JABAddBankViewController.h */,
+				8B76FE221F52BE6300D6BE6C /* JABAddBankViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B76FE2F1F52C08100D6BE6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE471F52C8B800D6BE6C /* JABAddBankModel.h */,
+				8B76FE481F52C8B800D6BE6C /* JABAddBankModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B76FE321F52C08100D6BE6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B76FE331F52C08100D6BE6C /* JABAddBankSelectedView.h */,
+				8B76FE341F52C08100D6BE6C /* JABAddBankSelectedView.m */,
+				8B76FE351F52C08100D6BE6C /* JABAddBankTableCell.h */,
+				8B76FE361F52C08100D6BE6C /* JABAddBankTableCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B76FE3E1F52C6AF00D6BE6C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8B5D3B311F53B9D900DDD54E /* icon_xuanzhongbx.png */,
+				8B5D3B301F53B9D900DDD54E /* icon_xuanzhongx.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B76FDE81F52BBC400D6BE6C /* JglhAddBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76FE151F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBank" */;
+			buildPhases = (
+				8B76FDE51F52BBC400D6BE6C /* Sources */,
+				8B76FDE61F52BBC400D6BE6C /* Frameworks */,
+				8B76FDE71F52BBC400D6BE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JglhAddBank;
+			productName = JglhAddBank;
+			productReference = 8B76FDE91F52BBC400D6BE6C /* JglhAddBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B76FE001F52BBC400D6BE6C /* JglhAddBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76FE181F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBankTests" */;
+			buildPhases = (
+				8B76FDFD1F52BBC400D6BE6C /* Sources */,
+				8B76FDFE1F52BBC400D6BE6C /* Frameworks */,
+				8B76FDFF1F52BBC400D6BE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B76FE031F52BBC400D6BE6C /* PBXTargetDependency */,
+			);
+			name = JglhAddBankTests;
+			productName = JglhAddBankTests;
+			productReference = 8B76FE011F52BBC400D6BE6C /* JglhAddBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B76FE0B1F52BBC400D6BE6C /* JglhAddBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B76FE1B1F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBankUITests" */;
+			buildPhases = (
+				8B76FE081F52BBC400D6BE6C /* Sources */,
+				8B76FE091F52BBC400D6BE6C /* Frameworks */,
+				8B76FE0A1F52BBC400D6BE6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B76FE0E1F52BBC400D6BE6C /* PBXTargetDependency */,
+			);
+			name = JglhAddBankUITests;
+			productName = JglhAddBankUITests;
+			productReference = 8B76FE0C1F52BBC400D6BE6C /* JglhAddBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B76FDE11F52BBC400D6BE6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JAB;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = DaviD;
+				TargetAttributes = {
+					8B76FDE81F52BBC400D6BE6C = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					8B76FE001F52BBC400D6BE6C = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8B76FDE81F52BBC400D6BE6C;
+					};
+					8B76FE0B1F52BBC400D6BE6C = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 8B76FDE81F52BBC400D6BE6C;
+					};
+				};
+			};
+			buildConfigurationList = 8B76FDE41F52BBC400D6BE6C /* Build configuration list for PBXProject "JglhAddBank" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B76FDE01F52BBC400D6BE6C;
+			productRefGroup = 8B76FDEA1F52BBC400D6BE6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B76FDE81F52BBC400D6BE6C /* JglhAddBank */,
+				8B76FE001F52BBC400D6BE6C /* JglhAddBankTests */,
+				8B76FE0B1F52BBC400D6BE6C /* JglhAddBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B76FDE71F52BBC400D6BE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5D3B321F53B9E700DDD54E /* icon_xuanzhongbx.png in Resources */,
+				8B5D3B331F53B9E700DDD54E /* icon_xuanzhongx.png in Resources */,
+				8B76FDF91F52BBC400D6BE6C /* LaunchScreen.storyboard in Resources */,
+				8B76FDF61F52BBC400D6BE6C /* Assets.xcassets in Resources */,
+				8B76FDF41F52BBC400D6BE6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FDFF1F52BBC400D6BE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FE0A1F52BBC400D6BE6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B76FDE51F52BBC400D6BE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5D3B3A1F540D4000DDD54E /* AppDelegate.m in Sources */,
+				8B76FE381F52C09B00D6BE6C /* JABAddBankSelectedView.m in Sources */,
+				8B76FE391F52C09B00D6BE6C /* JABAddBankTableCell.m in Sources */,
+				8B76FE491F52C8B800D6BE6C /* JABAddBankModel.m in Sources */,
+				8B76FDFC1F52BBC400D6BE6C /* main.m in Sources */,
+				8B76FE231F52BE6300D6BE6C /* JABAddBankViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FDFD1F52BBC400D6BE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76FE061F52BBC400D6BE6C /* JglhAddBankTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B76FE081F52BBC400D6BE6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B76FE111F52BBC400D6BE6C /* JglhAddBankUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B76FE031F52BBC400D6BE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B76FDE81F52BBC400D6BE6C /* JglhAddBank */;
+			targetProxy = 8B76FE021F52BBC400D6BE6C /* PBXContainerItemProxy */;
+		};
+		8B76FE0E1F52BBC400D6BE6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B76FDE81F52BBC400D6BE6C /* JglhAddBank */;
+			targetProxy = 8B76FE0D1F52BBC400D6BE6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B76FDF21F52BBC400D6BE6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B76FDF31F52BBC400D6BE6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B76FDF71F52BBC400D6BE6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B76FDF81F52BBC400D6BE6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B76FE131F52BBC400D6BE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8B76FE141F52BBC400D6BE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B76FE161F52BBC400D6BE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JglhAddBank/General/JglhAddBankPrefix.pch";
+				INFOPLIST_FILE = JglhAddBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B76FE171F52BBC400D6BE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JglhAddBank/General/JglhAddBankPrefix.pch";
+				INFOPLIST_FILE = JglhAddBank/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B76FE191F52BBC400D6BE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				INFOPLIST_FILE = JglhAddBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JglhAddBank.app/JglhAddBank";
+			};
+			name = Debug;
+		};
+		8B76FE1A1F52BBC400D6BE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				INFOPLIST_FILE = JglhAddBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JglhAddBank.app/JglhAddBank";
+			};
+			name = Release;
+		};
+		8B76FE1C1F52BBC400D6BE6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				INFOPLIST_FILE = JglhAddBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JglhAddBank;
+			};
+			name = Debug;
+		};
+		8B76FE1D1F52BBC400D6BE6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V3VWCC65R7;
+				INFOPLIST_FILE = JglhAddBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jgrm.com.JglhAddBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JglhAddBank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B76FDE41F52BBC400D6BE6C /* Build configuration list for PBXProject "JglhAddBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76FE131F52BBC400D6BE6C /* Debug */,
+				8B76FE141F52BBC400D6BE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76FE151F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76FE161F52BBC400D6BE6C /* Debug */,
+				8B76FE171F52BBC400D6BE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76FE181F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76FE191F52BBC400D6BE6C /* Debug */,
+				8B76FE1A1F52BBC400D6BE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B76FE1B1F52BBC400D6BE6C /* Build configuration list for PBXNativeTarget "JglhAddBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B76FE1C1F52BBC400D6BE6C /* Debug */,
+				8B76FE1D1F52BBC400D6BE6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B76FDE11F52BBC400D6BE6C /* Project object */;
+}
